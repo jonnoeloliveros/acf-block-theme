@@ -6,13 +6,13 @@ This is a child theme of twentytwentyfour theme. You will need to install twenty
 
 I registered/created these blocks (ACF blocks). These blocks can be used together with other gutenberg blocks.
 
-register_block_type( __DIR__ . '/blocks/testimonial' );
-register_block_type( __DIR__ . '/blocks/hero-slider' );
-register_block_type( __DIR__ . '/blocks/feature' );
-register_block_type( __DIR__ . '/blocks/about' );
-register_block_type( __DIR__ . '/blocks/professional' );
-register_block_type( __DIR__ . '/blocks/services' );
-register_block_type( __DIR__ . '/blocks/clients' );
+register_block_type( __DIR__ . '/blocks/testimonial' );</br>
+register_block_type( __DIR__ . '/blocks/hero-slider' );</br>
+register_block_type( __DIR__ . '/blocks/feature' );</br>
+register_block_type( __DIR__ . '/blocks/about' );</br>
+register_block_type( __DIR__ . '/blocks/professional' );</br>
+register_block_type( __DIR__ . '/blocks/services' );</br>
+register_block_type( __DIR__ . '/blocks/clients' );</br>
 register_block_type( __DIR__ . '/blocks/contact-us' );
 
 Slick slider scripts works on both frontend and block editor.
