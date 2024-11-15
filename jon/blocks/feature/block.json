@@ -1,0 +1,16 @@
+{
+    "name": "acf/feature",
+    "title": "Feature",
+    "description": "A custom Feature block that uses ACF fields.",
+    "style": [ "file:./feature.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "feature"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "feature.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

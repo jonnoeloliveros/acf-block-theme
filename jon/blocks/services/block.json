@@ -1,0 +1,16 @@
+{
+    "name": "acf/services",
+    "title": "Services",
+    "description": "A custom Services block that uses ACF fields.",
+    "style": [ "file:./services.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "services"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "services.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

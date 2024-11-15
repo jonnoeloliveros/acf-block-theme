@@ -1,0 +1,42 @@
+.about_section-inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about_section .detail-box h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about_section .detail-box p {
+    margin-top: 10px;
+}
+
+.about_section .detail-box a {
+    margin-top: 15px;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 45px;
+    background-color: #0355cc;
+    border: 1px solid #0355cc;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+.about_section .detail-box a:hover {
+    background-color: transparent;
+    color: #0355cc;
+}
+
+.about_section .img-box img {
+    width: 100%;
+}

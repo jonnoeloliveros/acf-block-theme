@@ -1,0 +1,16 @@
+{
+    "name": "acf/hero-slider",
+    "title": "Hero Slider",
+    "description": "A custom Hero block that uses ACF fields.",
+    "style": [ "file:./hero-slider.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "hero", "slider"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-slider.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

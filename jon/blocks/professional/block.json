@@ -1,0 +1,16 @@
+{
+    "name": "acf/professional",
+    "title": "Professional",
+    "description": "A custom Professional block that uses ACF fields.",
+    "style": [ "file:./professional.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "professional"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "professional.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

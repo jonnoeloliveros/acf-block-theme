@@ -1,0 +1,224 @@
+/*
+Theme Name: Jon
+Theme URI: 
+Author: Jon
+Author URI: 
+Description: 
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 5.7
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfour
+Text Domain: jon
+Tags: 
+*/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-wide {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.layout_padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.layout_padding2 {
+    padding: 45px 0;
+}
+
+.layout_padding2-top {
+    padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+    padding-bottom: 45px;
+}
+
+.layout_padding-top {
+    padding-top: 120px;
+}
+
+.layout_padding-bottom {
+    padding-bottom: 120px;
+}
+
+.heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.heading_container h2 {
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.heading_container p {
+    margin-bottom: 0;
+}
+
+.heading_container.heading_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.header-secondary-nav.wp-block-navigation {
+    gap: unset;
+}
+
+.header-secondary-nav.wp-block-navigation .wp-block-navigation-item {
+    padding: 10px 25px;
+}
+
+.header-secondary-nav.wp-block-navigation .wp-block-navigation-item:hover a,
+.header-secondary-nav.wp-block-navigation .wp-block-navigation-item:active a,
+.header-secondary-nav.wp-block-navigation .wp-block-navigation-item.current-menu-item a {
+    color: #0355cc;
+}
+
+.header-top a:hover {
+    color: inherit;
+}
+
+.header-top i.fa.fa-phone,
+.header-top i.fa.fa-envelope {
+    color: #ff8a1d;
+}
+
+.info_section .social-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.info_section .social-box .box {
+    background-color: #ffffff;
+    padding: 5px 15px;
+}
+
+.info_section a {
+    margin: 0 5px;
+    color: #0355cc;
+}
+
+.info_section a i {
+    font-size: 18px;
+}
+
+.info_section a:hover {
+    color: #ff8a1d;
+}
+
+.info_items a {
+    position: relative;
+}
+
+.info_items .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info_items .item .img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 80px;
+    background-color: #0355cc;
+    color: #ffffff;
+}
+
+.info_items .item .img-box i {
+    font-size: 24px;
+}
+
+.info_items .item p {
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 0;
+    background-color: #0a0f43;
+}
+
+.info_items .item:hover .img-box {
+    background-color: #ff8a1d;
+}
+
+.info_items {
+    position: relative;
+}
+
+.info_items::before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    width: 75%;
+    height: 1px;
+    background-color: #fff;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.footer_section a,
+.footer_section a:hover {
+    color: inherit;
+    margin: unset;
+}

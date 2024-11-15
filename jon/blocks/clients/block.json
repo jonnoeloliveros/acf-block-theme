@@ -1,0 +1,16 @@
+{
+    "name": "acf/clients",
+    "title": "Clients",
+    "description": "A custom Clients block that uses ACF fields.",
+    "style": [ "file:./clients.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "clients"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "clients.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

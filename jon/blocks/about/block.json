@@ -1,0 +1,16 @@
+{
+    "name": "acf/about",
+    "title": "About",
+    "description": "A custom About block that uses ACF fields.",
+    "style": [ "file:./about.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "about"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "about.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

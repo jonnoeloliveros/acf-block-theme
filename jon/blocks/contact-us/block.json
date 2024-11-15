@@ -1,0 +1,16 @@
+{
+    "name": "acf/contact-us",
+    "title": "Contact Us",
+    "description": "A custom Contact Us block that uses ACF fields.",
+    "style": [ "file:./contact-us.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["ACF", "contact us"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contact-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
